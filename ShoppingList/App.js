@@ -38,9 +38,22 @@ const App = () => {
   const [checkedItems, checkedItemChange] = useState([]);
 
   const deleteItem = id => {
-    setItems(prevItems => {
-      return prevItems.filter(item => item.id !== id);
-    });
+    Alert.alert(
+      'Are you sure you want to delete?',
+      'You wont be able to revert this!',
+      [
+        {
+          text: 'Cancel',
+          onPress: () => console.log('Cancel Pressed'),
+          style: 'cancel',
+        },
+        {text: 'OK', onPress: () => setItems(prevItems => {
+          return prevItems.filter(item => item.id !== id);
+        })},
+      ],
+      {cancelable: false},
+    );
+    
   };
 
   // Submit the users edits to the overall items state

@@ -75,6 +75,7 @@ const ListItem = ({
 const styles = StyleSheet.create({
   listItem: {
     padding: 15,
+    marginBottom: 0,
     backgroundColor: '#f8f8f8',
     borderBottomWidth: 1,
     borderColor: '#eee',
