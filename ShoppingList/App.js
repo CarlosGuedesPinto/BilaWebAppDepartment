@@ -134,6 +134,7 @@ const App = () => {
               checkedItems={checkedItems}
             />
           )}
+          keyExtractor={ (item, index) => index.toString() }
         />
       </View>
     </ImageBackground>

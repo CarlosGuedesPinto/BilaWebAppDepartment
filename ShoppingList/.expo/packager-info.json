@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 10128,
-  "expoServerNgrokUrl": "https://ay-tz8.bernardoferreira.shoppinglist.exp.direct",
-  "packagerNgrokUrl": "https://packager.ay-tz8.bernardoferreira.shoppinglist.exp.direct",
-  "ngrokPid": 15528
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }
