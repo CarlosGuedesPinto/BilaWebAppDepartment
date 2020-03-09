@@ -27,7 +27,7 @@ const ListItem = ({
       <View style={styles.listItemView}>
         {isEditing && editItemDetail.id === item.id ? (
           <TextInput
-            placeholder="Edit Item..."
+            placeholder={item.text}
             style={styles.editItemInput}
             onChangeText={handleEditChange}
           />
@@ -44,7 +44,7 @@ const ListItem = ({
           {isEditing && editItemDetail.id === item.id ? (
             <Icon
               name="save"
-              size={20}
+              size={25}
               color="green"
               onPress={() => saveEditItem(item.id, item.text)}
             />
@@ -52,7 +52,8 @@ const ListItem = ({
             !checked.length && (
               <Icon
                 name="pencil"
-                size={20}
+               
+                size={25}
                 color="blue"
                 onPress={() => editItem(item.id, item.text)}
               />
@@ -60,7 +61,8 @@ const ListItem = ({
           )}
           <Icon
             name="remove"
-            size={20}
+            style={{paddingLeft: 20}}
+            size={25}
             color="firebrick"
             onPress={() => deleteItem(item.id)}
           />
