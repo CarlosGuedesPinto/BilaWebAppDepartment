@@ -1,4 +1,0 @@
-#Mon Mar 09 11:56:44 WET 2020
-base.0=/Users/carlosguedes/Dev/Test2/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
