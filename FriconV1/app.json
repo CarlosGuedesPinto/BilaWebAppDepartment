@@ -1,0 +1,17 @@
+{
+  "name": "FriconV1",
+  "displayName": "FriconV1",
+  "expo": {
+    "name": "FriconV1",
+    "slug": "FriconV1",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "version": "1.0.0",
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
