@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet, View, Image, Text, Dimensions, ScrollView} from "react-native";
+import {StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar} from "react-native";
 import {MaterialIcons} from '@expo/vector-icons'
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
     return (
        
         <View style={styles.container}>
+            <StatusBar backgroundColor="white" barStyle="dark-content" />
             <View style={styles.header}>
                 <Image source={require('../assets/Logo.png')} style={{width: 150, height: 44}} />
                 <MaterialIcons name="menu" size={40} color={"#002169"}/>
@@ -30,7 +31,8 @@ export default function Home() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 20,
+     
+       
       
     },
 
@@ -40,6 +42,9 @@ const styles = StyleSheet.create({
         paddingBottom: 20,
         paddingLeft: 20,
         paddingRight: 20,
+        paddingTop: 45,
+        backgroundColor: 'white'
+        
       
     },
     
