@@ -6,12 +6,14 @@ import { createStackNavigator } from 'react-navigation-stack';
 import Home from './screens/Home';
 import Menu from './screens/Menu';
 import Catalog from './screens/Catalog';
+import Header from './components/Header';
 
 const AppNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     Menu: { screen: Menu },
-    Catalog: { screen: Catalog }
+    Catalog: { screen: Catalog },
+    Header: { screen: Header }
   },
   {
     initialRouteName: 'Home',

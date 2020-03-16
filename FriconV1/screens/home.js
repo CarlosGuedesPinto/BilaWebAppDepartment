@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar } from "react-native";
-import Header from "../components/header"
+import Header from "../components/Header"
 import { TouchableHighlight } from "react-native-gesture-handler";
 
 export default class Home extends Component {

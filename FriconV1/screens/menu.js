@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image, Text, Dimensions, ImageBackground, StatusBar } from "react-native";
-import Header from "../components/header"
+import Header from "../components/Header"
 import { TouchableHighlight } from "react-native-gesture-handler";
 
 export default class Menu extends Component {
@@ -12,8 +12,8 @@ export default class Menu extends Component {
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
-                <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog')}>
-                    <ImageBackground source={require('../assets/supermercados.png')} style={{ width: imageWidth, marginBottom: 10 }}>
+                <TouchableHighlight style={{flex: 1, width: imageWidth, marginBottom: 10}} onPress={() => this.props.navigation.navigate('Catalog')}>
+                    <ImageBackground source={require('../assets/supermercados.png')} style={{ flex:1 }}>
                         <View style={styles.view}>
                             <Image source={require('../assets/iconSupermercados.png')} style={styles.icons} />
                             <Text style={styles.text}>SUPERMERCADOS</Text>

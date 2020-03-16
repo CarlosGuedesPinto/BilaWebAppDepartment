@@ -1,15 +1,19 @@
-import React from "react";
-import {StyleSheet, View, Image} from "react-native";
-import {MaterialIcons} from '@expo/vector-icons'
+import React, { Component } from "react";
+import { StyleSheet, View, Image } from "react-native";
+import { MaterialIcons } from '@expo/vector-icons'
+import { TouchableHighlight } from "react-native-gesture-handler";
 
-export default function Home() {
+export default class Header extends Component {
+    render() {
+        return (
+            <View style={styles.header}>
 
-    return (  
-        <View style={styles.header}>
-            <Image source={require('../assets/Logo.png')} style={{width: 150, height: 44}} />
-            <MaterialIcons name="menu" size={40} color={"#002169"}/>
-        </View>  
-    )
+                <Image source={require('../assets/Logo.png')} style={{ width: 150, height: 44 }} />
+
+                <MaterialIcons name="menu" size={40} color={"#002169"} />
+            </View>
+        )
+    }
 }
 
 const styles = StyleSheet.create({
