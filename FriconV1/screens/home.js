@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar } from "react-native";
+import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar, TouchableHighlight } from "react-native";
 import Header from "../components/Header"
-import { TouchableHighlight } from "react-native-gesture-handler";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 export default class Home extends Component {
     render() {
@@ -12,10 +12,12 @@ export default class Home extends Component {
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
-                <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu')}>
-                    <Image source={require('../assets/CatalogoProduto.png')} style={{ width: imageWidth }} />
+                <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu')} style={{ flex: 1 }}>
+                    <Image source={require('../assets/CatalogoProduto.png')} style={{ flex: 1, width: imageWidth }} />
                 </TouchableHighlight>
-                {/* <Image source={require('../assets/PontosVenda.png')} style={{ flex: 1, width: imageWidth }} /> */}
+                <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu')} style={{ flex: 1 }}>
+                    <Image source={require('../assets/PontosVenda.png')} style={{ flex: 1, width: imageWidth }} />
+                </TouchableHighlight>
             </View>
         )
     }

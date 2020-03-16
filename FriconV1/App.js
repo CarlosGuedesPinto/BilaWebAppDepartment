@@ -7,13 +7,15 @@ import Home from './screens/Home';
 import Menu from './screens/Menu';
 import Catalog from './screens/Catalog';
 import Header from './components/Header';
+import Product from './screens/Product';
 
 const AppNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     Menu: { screen: Menu },
     Catalog: { screen: Catalog },
-    Header: { screen: Header }
+    Header: { screen: Header },
+    Product: { screen: Product}
   },
   {
     initialRouteName: 'Home',

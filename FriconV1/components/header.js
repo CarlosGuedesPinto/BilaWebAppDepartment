@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons'
-import { TouchableHighlight } from "react-native-gesture-handler";
+
 
 export default class Header extends Component {
     render() {
