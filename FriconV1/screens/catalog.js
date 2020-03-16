@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar, TouchableHighlight } from "react-native";
-import Header from "../components/Header"
+import Header from "../../components/Header"
 
 export default class Catalog extends Component {
     render() {
@@ -10,7 +10,7 @@ export default class Catalog extends Component {
                 <Header />
                 <ScrollView style={styles.scrollContainer}>
                     <View style={styles.viewContainer}>
-                        <TouchableHighlight onPress={() => this.props.navigation.navigate('Product')} >
+                        <TouchableHighlight onPress={() => this.props.navigation.navigate('Product', {prevPage: 'Catalog'})} >
                             <View style={styles.box}>
                                 <Image source={require('../assets/arcas/COOLCELL.png')} style={styles.icons} />
                             </View>

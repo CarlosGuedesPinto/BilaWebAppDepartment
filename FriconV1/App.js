@@ -3,18 +3,17 @@ import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar } from
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
-import Home from './screens/Home';
-import Menu from './screens/Menu';
-import Catalog from './screens/Catalog';
-import Header from './components/Header';
-import Product from './screens/Product';
+import Home from './src/screens/Home';
+import Menu from './src/screens/Menu';
+import Catalog from './src/screens/Catalog';
+import Header from './src/components/Header';
+import Product from './src/screens/Product';
 
 const AppNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     Menu: { screen: Menu },
     Catalog: { screen: Catalog },
-    Header: { screen: Header },
     Product: { screen: Product}
   },
   {
@@ -22,8 +21,6 @@ const AppNavigator = createStackNavigator(
     headerMode: null
   }
 );
-
-
 
 const AppContainer = createAppContainer(AppNavigator);
 

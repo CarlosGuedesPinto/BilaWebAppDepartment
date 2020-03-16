@@ -13,10 +13,10 @@ export default class Home extends Component {
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
                 <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu')} style={{ flex: 1 }}>
-                    <Image source={require('../assets/CatalogoProduto.png')} style={{ flex: 1, width: imageWidth }} />
+                    <Image source={require('../../assets/CatalogoProduto.png')} style={{ flex: 1, width: imageWidth }} />
                 </TouchableHighlight>
                 <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu')} style={{ flex: 1 }}>
-                    <Image source={require('../assets/PontosVenda.png')} style={{ flex: 1, width: imageWidth }} />
+                    <Image source={require('../../assets/PontosVenda.png')} style={{ flex: 1, width: imageWidth }} />
                 </TouchableHighlight>
             </View>
         )
