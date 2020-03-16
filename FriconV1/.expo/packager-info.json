@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 23350,
-  "expoServerNgrokUrl": "https://23-e6u.carlosguedespinto.friconv1.exp.direct",
-  "packagerNgrokUrl": "https://packager.23-e6u.carlosguedespinto.friconv1.exp.direct",
-  "ngrokPid": 23377,
+  "packagerPid": 18420,
+  "expoServerNgrokUrl": "https://23-e6u.anonymous.friconv1.exp.direct",
+  "packagerNgrokUrl": "https://packager.23-e6u.anonymous.friconv1.exp.direct",
+  "ngrokPid": 14760,
   "webpackServerPort": null
 }
