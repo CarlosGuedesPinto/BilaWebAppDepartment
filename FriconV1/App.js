@@ -1,11 +1,32 @@
-import React from 'react';
-import Home from './screens/home';
-import Menu from './screens/menu';
-import Catalog from './screens/catalog';
+import React, { Component } from 'react';
+import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar } from "react-native";
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
-export default function App() {
-  return (
-    <Menu/>
-  );
+import Home from './screens/Home';
+import Menu from './screens/Menu';
+import Catalog from './screens/Catalog';
 
+const AppNavigator = createStackNavigator(
+  {
+    Home: { screen: Home },
+    Menu: { screen: Menu },
+    Catalog: { screen: Catalog }
+  },
+  {
+    initialRouteName: 'Home',
+    headerMode: null
+  }
+);
+
+
+
+const AppContainer = createAppContainer(AppNavigator);
+
+export default class App extends Component {
+  render() {
+    return (
+      <AppContainer />
+    );
+  }
 }

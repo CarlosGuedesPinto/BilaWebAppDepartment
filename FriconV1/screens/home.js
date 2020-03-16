@@ -1,20 +1,24 @@
-import React from "react";
-import {StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar} from "react-native";
+import React, { Component } from "react";
+import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar } from "react-native";
 import Header from "../components/header"
+import { TouchableHighlight } from "react-native-gesture-handler";
 
-export default function Home() {
+export default class Home extends Component {
+    render() {
+        const dimensions = Dimensions.get('window');
+        const imageWidth = dimensions.width;
 
-    const dimensions = Dimensions.get('window');
-    const imageWidth = dimensions.width;
-
-    return (
-        <View style={styles.container}>
-            <StatusBar backgroundColor="white" barStyle="dark-content" />
-            <Header/>
-            <Image source={require('../assets/CatálogoProduto.png')} style={{flex:1, width: imageWidth }} />
-            <Image source={require('../assets/PontosVenda.png')} style={{flex:1, width: imageWidth }} />
-        </View>
-    )
+        return (
+            <View style={styles.container}>
+                <StatusBar backgroundColor="white" barStyle="dark-content" />
+                <Header />
+                <TouchableHighlight onPress={() => this.props.navigation.navigate('Menu')}>
+                    <Image source={require('../assets/CatalogoProduto.png')} style={{ width: imageWidth }} />
+                </TouchableHighlight>
+                {/* <Image source={require('../assets/PontosVenda.png')} style={{ flex: 1, width: imageWidth }} /> */}
+            </View>
+        )
+    }
 }
 
 const styles = StyleSheet.create({
