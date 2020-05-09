@@ -2,29 +2,55 @@ import React, { Component } from "react";
 import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar, TouchableHighlight } from "react-native";
 import Header from "../components/Header"
 
-export default class Catalog extends Component {
-    render() {
+import { db } from "../config"
 
+let itemsRef = db.ref('/items');
+
+export default class Catalog extends Component {
+
+    state = {
+        items: [],
+        typeId: ""
+    };
+
+    componentDidMount() {
+        itemsRef.on('value', snapshot => {
+            let data = snapshot.val();
+            let items = Object.values(data);
+            this.setState({ items });
+        });
+
+        try {
+            if (this.props.navigation.getParam("type") != null) {
+                this.setState({ typeId: this.props.navigation.getParam("type") });
+            }
+        } catch (error) {
+            //Página de erro
+        }
+        
+    }
+
+    render() {
+        //console.log(this.state.typeId);
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
                 <ScrollView style={styles.scrollContainer}>
                     <View style={styles.viewContainer}>
-                        <TouchableHighlight onPress={() => this.props.navigation.navigate('Product')} >
-                            <View style={styles.box}>
-                                <Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} />
-                            </View>
-                        </TouchableHighlight>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
-                        <View style={styles.box}><Image source={require('../../assets/arcas/COOLCELL.png')} style={styles.icons} /></View>
+                        {this.state.items.map((item, key) => {
+                            if (item.typeId == this.state.typeId) {
+                                return (
+                                    <TouchableHighlight onPress={() => this.props.navigation.navigate('Product', {item})} key={item.id}>
+                                        <View style={styles.box}>
+                                            <Image source={{ uri: item.images.profilePic }} style={styles.icons} />
+                                        </View>
+                                    </TouchableHighlight>
+                                );
+                            }
+                        })}
+
+
                     </View>
                 </ScrollView>
             </View>

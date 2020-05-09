@@ -1,0 +1,29 @@
+{
+    "items": {
+        "1" : {
+            "id" : "1",
+            "description": {
+                "description": "Isto é um teste",
+                "specs" : {}
+            },
+            "images": {
+                "photos": {
+                    "1": "https://www.fricon.pt/wp-content/uploads/2018/11/mobile_detalhes_04.jpg",
+                    "2": "https://www.fricon.pt/wp-content/uploads/2018/11/mobile_detalhes_02.jpg"
+                },
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2018/11/BEACH-CART-4.png"
+            },
+            "name": "Beach Cart",
+            "render": {},
+            "typeId" : 1
+        }
+    },
+    "type": {
+        "1": {
+            "id" : "1",
+            "type": "Domestic",
+            "background": "https://ibb.co/TBsM03C",
+            "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/domestico.png"
+        }
+    }
+}

@@ -2,7 +2,24 @@ import React, { Component } from "react";
 import { StyleSheet, View, Image, Text, Dimensions, ImageBackground, StatusBar, TouchableHighlight } from "react-native";
 import Header from "../components/Header"
 
+import { db } from "../config"
+
+let typesRef = db.ref('/type');
+
 export default class Menu extends Component {
+
+    state = {
+        types: []
+    };
+
+    componentDidMount() {
+        typesRef.on('value', snapshot => {
+            let data = snapshot.val();
+            let types = Object.values(data);
+            this.setState({ types });
+        });
+    }
+
     render() {
         const dimensions = Dimensions.get('window');
         const imageWidth = dimensions.width;
@@ -11,30 +28,19 @@ export default class Menu extends Component {
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
-                <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog')} style={{ flex: 1 }}>
-                    <ImageBackground source={require('../../assets/supermercados.png')} style={{ flex: 1, width: imageWidth, marginBottom: 10 }}>
-                        <View style={styles.view}>
-                            <Image source={require('../../assets/iconSupermercados.png')} style={styles.icons} />
-                            <Text style={styles.text}>SUPERMERCADOS</Text>
-                        </View>
-                    </ImageBackground>
-                </TouchableHighlight>
-                <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog')} style={{ flex: 1 }}>
-                    <ImageBackground source={require('../../assets/bebidas.png')} style={{ flex: 1, width: imageWidth, marginBottom: 10 }} >
-                        <View style={styles.view}>
-                            <Image source={require('../../assets/iconBebidas.png')} style={styles.icons} />
-                            <Text style={styles.text}>BEBIDAS</Text>
-                        </View>
-                    </ImageBackground>
-                </TouchableHighlight>
-                <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog')} style={{ flex: 1 }}>
-                    <ImageBackground source={require('../../assets/congelados.png')} style={{ flex: 1, width: imageWidth }} >
-                        <View style={styles.view}>
-                            <Image source={require('../../assets/iconCongelados.png')} style={styles.icons} />
-                            <Text style={styles.text}>CONGELADOS</Text>
-                        </View>
-                    </ImageBackground>
-                </TouchableHighlight>
+                {this.state.types.map((item) => {
+                    //console.log(item);
+                    return (
+                        <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog', {type : item.id })} style={{ flex: 1 }} key={item.id}>
+                            <ImageBackground source={require('../../assets/supermercados.png')} style={{ flex: 1, width: imageWidth, marginBottom: 10 }}>
+                                <View style={styles.view}>
+                                    <Image source={{ uri: item.icon }} style={styles.icons} />
+                                    <Text style={styles.text}>{item.type}</Text>
+                                </View>
+                            </ImageBackground>
+                        </TouchableHighlight>
+                    );
+                })}
             </View>
         )
     }
