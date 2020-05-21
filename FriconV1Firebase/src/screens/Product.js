@@ -1,32 +1,70 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar, TouchableHighlight, TouchableOpacity } from "react-native";
 import Header from "../components/Header"
+import { Table, TableWrapper, Row, Rows, Col, Cols, Cell } from 'react-native-table-component';
 
 import { SliderBox } from "react-native-image-slider-box";
 
 export default class Product extends Component {
 
     state = {
-        currentItem: this.props.navigation.getParam("item")
+        currentItem: this.props.navigation.getParam("item"),
+        photos: [],
+        hasPhotos: false,
+        hasSpecs: false
     };
 
+    UNSAFE_componentWillMount() {
+        console.log(this.state.currentItem);
+        try {
+            if (this.state.currentItem.images.photos != "0") {
+                console.log("ASD");
+                this.state.hasPhotos = true;
+                this.state.photos = this.state.currentItem.images.photos;
+            }
+
+            if (this.state.currentItem.description.specs === "0") {
+                this.state.hasSpecs = false;
+            }
+            else {
+                console.log("SPECS");
+                this.state.hasSpecs = true;
+            }
+        } catch (error) {
+            console.log(error);
+        }
+
+    }
+
     render() {
-        console.log(this.state.currentItem)
+        console.log(this.state.hasSpecs)
+        console.log("RENDER");
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
                 <ScrollView>
-                    {/* <SliderBox images={this.state.currentItem.images.photos} style={styles.icons}/> */}
-                    <View style={styles.box}><Image source={{ uri: this.state.currentItem.images.profilePic }} style={styles.icons} /></View>
+                    {this.state.hasPhotos
+                        ? <SliderBox images={this.state.currentItem.images.photos} style={styles.icons} />
+                        : <View style={styles.box}><Image source={{ uri: this.state.currentItem.images.profilePic }} style={styles.icons} /></View>}
+
                     <Text style={styles.title}>{this.state.currentItem.name}</Text>
                     <Text style={styles.description}>{this.state.currentItem.description.description}</Text>
+
+                    {this.state.hasSpecs
+                        ? <Table borderStyle={{ borderWidth: 2, borderColor: '#c8e1ff' }}>
+                            <Rows data={this.state.currentItem.description.specs} textStyle={styles.text} />
+                        </Table>
+                        : <Text style={styles.title}>No Specs Table</Text>}
+
                     <TouchableOpacity>
                         <Text style={styles.button}>3D</Text>
                     </TouchableOpacity>
+
                 </ScrollView>
             </View>
         )
+
     }
 }
 

@@ -1,29 +1,141 @@
 {
     "items": {
-        "1" : {
-            "id" : "1",
+        "1": {
+            "id": "1",
             "description": {
                 "description": "Isto é um teste",
-                "specs" : {}
+                "specs": "0"
             },
             "images": {
-                "photos": {
-                    "1": "https://www.fricon.pt/wp-content/uploads/2018/11/mobile_detalhes_04.jpg",
-                    "2": "https://www.fricon.pt/wp-content/uploads/2018/11/mobile_detalhes_02.jpg"
-                },
+                "photos": [
+                    "https://www.fricon.pt/wp-content/uploads/2018/11/mobile_detalhes_04.jpg",
+                    "https://www.fricon.pt/wp-content/uploads/2018/11/mobile_detalhes_02.jpg"
+                ],
                 "profilePic": "https://www.fricon.pt/wp-content/uploads/2018/11/BEACH-CART-4.png"
             },
             "name": "Beach Cart",
             "render": {},
-            "typeId" : 1
+            "typeId": 2,
+            "video": "https://www.youtube.com/watch?v=bjkImP4qaQg&feature=emb_logo"
+        },
+        "2": {
+            "id": "2",
+            "description": {
+                "description": "Isto é um teste",
+                "specs": "0"
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/MBC-125-2.png"
+            },
+            "name": "MBC 125",
+            "render": {},
+            "typeId": 1,
+            "video": "https://www.youtube.com/watch?v=kPDUmvmGCjk&feature=emb_logo"
+        },
+        "3": {
+            "id": "3",
+            "description": {
+                "description": "Isto é um teste",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "1000 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "730 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "293 Lts | 10,3 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "293 Lts | 10,3 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "T"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.28 A  61 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "A+"
+                    ],
+                    [
+                        "Espessura Isolamento",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        " -24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-305.png"
+            },
+            "name": "FREEZER (HRZ) THC 305",
+            "render": {},
+            "typeId": 1,
+            "video": ""
         }
     },
     "type": {
         "1": {
-            "id" : "1",
+            "id": "1",
             "type": "Domestic",
             "background": "https://ibb.co/TBsM03C",
             "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/domestico.png"
+        },
+        "2": {
+            "id": "2",
+            "type": "Mobile",
+            "background": "https://ibb.co/TBsM03C",
+            "icon": "https://www.fricon.pt/wp-content/uploads/2017/02/mobiling-1.png"
+        },
+        "3": {
+            "id": "3",
+            "type": "Drinks",
+            "background": "https://ibb.co/TBsM03C",
+            "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/bebidas.png"
+        },
+        "4": {
+            "id": "4",
+            "type": "Ice Cream and Frozen",
+            "background": "https://ibb.co/TBsM03C",
+            "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/gelados-congelados.png"
+        },
+        "5": {
+            "id": "5",
+            "type": "Supermarkets",
+            "background": "https://ibb.co/TBsM03C",
+            "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/supermercados2.png"
         }
     }
 }
