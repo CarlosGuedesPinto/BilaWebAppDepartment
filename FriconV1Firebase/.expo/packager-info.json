@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 2706,
-  "expoServerNgrokUrl": "https://9j-3qg.carlosguedespinto.friconv1firebase.exp.direct",
-  "packagerNgrokUrl": "https://packager.9j-3qg.carlosguedespinto.friconv1firebase.exp.direct",
-  "ngrokPid": 2726,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }

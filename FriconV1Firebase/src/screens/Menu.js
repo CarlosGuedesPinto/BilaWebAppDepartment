@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Image, Text, Dimensions, ImageBackground, StatusBar, TouchableHighlight } from "react-native";
+import { StyleSheet, View, Image, Text, Dimensions, ScrollView, ImageBackground, StatusBar, TouchableHighlight } from "react-native";
 import Header from "../components/Header"
 
 import { db } from "../config"
@@ -28,19 +28,21 @@ export default class Menu extends Component {
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
-                {this.state.types.map((item) => {
-                    //console.log(item);
-                    return (
-                        <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog', {type : item.id })} style={{ flex: 1 }} key={item.id}>
-                            <ImageBackground source={require('../../assets/supermercados.png')} style={{ flex: 1, width: imageWidth, marginBottom: 10 }}>
-                                <View style={styles.view}>
-                                    <Image source={{ uri: item.icon }} style={styles.icons} />
-                                    <Text style={styles.text}>{item.type}</Text>
-                                </View>
-                            </ImageBackground>
-                        </TouchableHighlight>
-                    );
-                })}
+                <ScrollView style={styles.scrollContainer}>
+                    {this.state.types.map((item) => {
+                        //console.log(item);
+                        return (
+                            <TouchableHighlight onPress={() => this.props.navigation.navigate('Catalog', { type: item.id })} style={{ flex: 1 }} key={item.id}>
+                                <ImageBackground source={require('../../assets/supermercados.png')} style={{ flex: 1, width: imageWidth, marginBottom: 10 }}>
+                                    <View style={styles.view}>
+                                        <Image source={{ uri: item.icon }} style={styles.icons} />
+                                        <Text style={styles.text}>{item.type}</Text>
+                                    </View>
+                                </ImageBackground>
+                            </TouchableHighlight>
+                        );
+                    })}
+                </ScrollView>
             </View>
         )
     }
@@ -48,6 +50,10 @@ export default class Menu extends Component {
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
+    },
+
+    scrollContainer: {
         flex: 1,
     },
 
@@ -68,6 +74,7 @@ const styles = StyleSheet.create({
 
     icons: {
         height: 70.76,
-        width: 61.41
+        width: 61.41,
+        tintColor: "white"
     }
 })

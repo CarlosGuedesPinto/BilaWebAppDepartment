@@ -49,8 +49,6 @@ export default class Catalog extends Component {
                                 );
                             }
                         })}
-
-
                     </View>
                 </ScrollView>
             </View>
@@ -85,6 +83,6 @@ const styles = StyleSheet.create({
 
     icons: {
         height: 144,
-        width: 60
+        width: 150
     }
 })

@@ -37,6 +37,8 @@ export default class Product extends Component {
     }
 
     render() {
+
+
         console.log(this.state.hasSpecs)
         console.log("RENDER");
         return (
@@ -50,9 +52,9 @@ export default class Product extends Component {
 
                     <Text style={styles.title}>{this.state.currentItem.name}</Text>
                     <Text style={styles.description}>{this.state.currentItem.description.description}</Text>
-
+                    <Text style={styles.title}>SPECS TABLE</Text>
                     {this.state.hasSpecs
-                        ? <Table borderStyle={{ borderWidth: 2, borderColor: '#c8e1ff' }}>
+                        ? <Table style={styles.table} borderStyle={{borderWidth: 2, borderColor: '#c8e1ff'}}>
                             <Rows data={this.state.currentItem.description.specs} textStyle={styles.text} />
                         </Table>
                         : <Text style={styles.title}>No Specs Table</Text>}
@@ -87,7 +89,7 @@ const styles = StyleSheet.create({
 
     icons: {
         height: 288,
-        width: 120
+        width: Dimensions.get("window").width
     },
 
     title: {
@@ -118,5 +120,10 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         backgroundColor: "#002169",
         color: "white"
+    },
+
+    table: {
+        marginLeft: 20,
+        marginRight: 20
     }
 })
