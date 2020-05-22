@@ -4,6 +4,11 @@ import android.app.Application;
 
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.github.yamill.orientation.OrientationPackage;
+import com.swmansion.reanimated.ReanimatedPackage;
+import com.reactnativecommunity.slider.ReactSliderPackage;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+import com.inprogress.reactnativeyoutube.ReactNativeYouTube;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;

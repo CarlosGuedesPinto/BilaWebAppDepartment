@@ -43,4 +43,14 @@ target 'FriconV1' do
 
   # react-native-cli autolinking
   use_native_modules!
+  pod 'RCTYouTube', :path => '../node_modules/react-native-youtube'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  pod 'react-native-slider', :path => '../node_modules/@react-native-community/slider'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
 end

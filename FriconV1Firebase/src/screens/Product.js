@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar, TouchableHighlight, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Image, Text, Dimensions, ScrollView, StatusBar, Linking, TouchableHighlight, TouchableOpacity } from "react-native";
 import Header from "../components/Header"
 import { Table, TableWrapper, Row, Rows, Col, Cols, Cell } from 'react-native-table-component';
-
+import { APIGoogle } from '../configGoogleKey'
+import YouTube from 'react-native-youtube';
 import { SliderBox } from "react-native-image-slider-box";
 
 export default class Product extends Component {
@@ -11,24 +12,34 @@ export default class Product extends Component {
         currentItem: this.props.navigation.getParam("item"),
         photos: [],
         hasPhotos: false,
-        hasSpecs: false
+        hasSpecs: false,
+        hasPresVideo: false,
+        hasRender: false,
+        hasTC: false
     };
 
     UNSAFE_componentWillMount() {
         console.log(this.state.currentItem);
         try {
             if (this.state.currentItem.images.photos != "0") {
-                console.log("ASD");
                 this.state.hasPhotos = true;
                 this.state.photos = this.state.currentItem.images.photos;
             }
 
-            if (this.state.currentItem.description.specs === "0") {
-                this.state.hasSpecs = false;
-            }
-            else {
-                console.log("SPECS");
+            if (this.state.currentItem.description.specs != "0") {
                 this.state.hasSpecs = true;
+            }
+
+            if (this.state.currentItem.videoId != "0") {
+                this.state.hasPresVideo = true;
+            }
+
+            if (this.state.currentItem.render != "0") {
+                this.state.hasRender = true;
+            }
+
+            if (this.state.currentItem.technicalCard != "0") {
+                this.state.hasTC = true;
             }
         } catch (error) {
             console.log(error);
@@ -37,7 +48,6 @@ export default class Product extends Component {
     }
 
     render() {
-
 
         console.log(this.state.hasSpecs)
         console.log("RENDER");
@@ -52,22 +62,43 @@ export default class Product extends Component {
 
                     <Text style={styles.title}>{this.state.currentItem.name}</Text>
                     <Text style={styles.description}>{this.state.currentItem.description.description}</Text>
-                    <Text style={styles.title}>SPECS TABLE</Text>
                     {this.state.hasSpecs
-                        ? <Table style={styles.table} borderStyle={{borderWidth: 2, borderColor: '#c8e1ff'}}>
+                        ? <Table style={styles.table} borderStyle={{ borderWidth: 2, borderColor: '#c8e1ff' }}>
                             <Rows data={this.state.currentItem.description.specs} textStyle={styles.text} />
                         </Table>
-                        : <Text style={styles.title}>No Specs Table</Text>}
+                        : <Text></Text>}
+                    {this.state.hasTC
+                        ? <TouchableOpacity>
+                            <Text style={styles.button} onPress={() => {
+                                //on clicking we are going to open the URL using Linking
+                                Linking.openURL(this.state.currentItem.technicalCard);
+                            }}> View Technical Card</Text>
+                        </TouchableOpacity>
+                        : <Text></Text>}
+                    {this.state.hasPresVideo
+                        ? <YouTube
+                            videoId={this.state.currentItem.videoId} // The YouTube video ID
+                            onReady={e => this.setState({ isReady: true })}
+                            onChangeState={e => this.setState({ status: e.state })}
+                            onChangeQuality={e => this.setState({ quality: e.quality })}
+                            onError={e => this.setState({ error: e.error })}
+                            style={styles.video}
+                            apiKey={APIGoogle}
+                        />
+                        : <Text></Text>}
+                    {this.state.hasRender
+                        ? <TouchableOpacity>
+                            <Text style={styles.button}>3D</Text>
+                        </TouchableOpacity>
+                        : <Text></Text>}
 
-                    <TouchableOpacity>
-                        <Text style={styles.button}>3D</Text>
-                    </TouchableOpacity>
 
                 </ScrollView>
             </View>
         )
 
     }
+
 }
 
 const styles = StyleSheet.create({
@@ -90,6 +121,14 @@ const styles = StyleSheet.create({
     icons: {
         height: 288,
         width: Dimensions.get("window").width
+    },
+
+    video: {
+        marginTop: 20,
+        marginLeft: 20,
+        marginRight: 20,
+        alignSelf: 'stretch',
+        height: 200
     },
 
     title: {
