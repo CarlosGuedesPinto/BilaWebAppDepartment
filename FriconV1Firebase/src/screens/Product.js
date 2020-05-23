@@ -15,15 +15,22 @@ export default class Product extends Component {
         hasSpecs: false,
         hasPresVideo: false,
         hasRender: false,
-        hasTC: false
+        hasTC: false,
+        hasDesc: false
     };
 
     UNSAFE_componentWillMount() {
-        console.log(this.state.currentItem);
         try {
             if (this.state.currentItem.images.photos != "0") {
                 this.state.hasPhotos = true;
-                this.state.photos = this.state.currentItem.images.photos;
+
+                let allPhotos = [];
+                allPhotos.push(this.state.currentItem.images.profilePic);
+                this.state.currentItem.images.photos.map((item, i) => {
+                    allPhotos.push(item);
+                });
+                this.setState({ photos: allPhotos})
+    
             }
 
             if (this.state.currentItem.description.specs != "0") {
@@ -41,6 +48,10 @@ export default class Product extends Component {
             if (this.state.currentItem.technicalCard != "0") {
                 this.state.hasTC = true;
             }
+
+            if (this.state.currentItem.description.description != "0") {
+                this.state.hasDesc = true;
+            }
         } catch (error) {
             console.log(error);
         }
@@ -48,20 +59,19 @@ export default class Product extends Component {
     }
 
     render() {
-
-        console.log(this.state.hasSpecs)
-        console.log("RENDER");
         return (
             <View style={styles.container}>
                 <StatusBar backgroundColor="white" barStyle="dark-content" />
                 <Header />
                 <ScrollView>
                     {this.state.hasPhotos
-                        ? <SliderBox images={this.state.currentItem.images.photos} style={styles.icons} />
+                        ? <SliderBox images={this.state.photos} style={styles.icons} />
                         : <View style={styles.box}><Image source={{ uri: this.state.currentItem.images.profilePic }} style={styles.icons} /></View>}
 
                     <Text style={styles.title}>{this.state.currentItem.name}</Text>
-                    <Text style={styles.description}>{this.state.currentItem.description.description}</Text>
+                    {this.state.hasDesc
+                        ? <Text style={styles.description}>{this.state.currentItem.description.description}</Text>
+                        : <Text></Text>}
                     {this.state.hasSpecs
                         ? <Table style={styles.table} borderStyle={{ borderWidth: 2, borderColor: '#c8e1ff' }}>
                             <Rows data={this.state.currentItem.description.specs} textStyle={styles.text} />

@@ -44,6 +44,7 @@ export default class Catalog extends Component {
                                     <TouchableHighlight onPress={() => this.props.navigation.navigate('Product', {item})} key={item.id}>
                                         <View style={styles.box}>
                                             <Image source={{ uri: item.images.profilePic }} style={styles.icons} />
+                                            <Text>{item.name}</Text>
                                         </View>
                                     </TouchableHighlight>
                                 );

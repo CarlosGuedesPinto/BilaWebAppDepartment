@@ -1,9 +1,9 @@
 {
     "items": {
         "1": {
-            "id": "1",
+            "id": "ef433d39-de37-4270-9f5b-394c9eddfe36",
             "description": {
-                "description": "Isto é um teste",
+                "description": "0",
                 "specs": [
                     [
                         "GENERAL DATA",
@@ -72,38 +72,38 @@
             },
             "name": "Beach Cart",
             "render": "0",
-            "typeId": 2,
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
             "videoId": "kPDUmvmGCjk",
             "technicalCard": "https://www.fricon.pt/wp-content/uploads/2018/11/TECHNICAL-CARD-Beach-Push-Cart-106_-V_-Hz_-_-_EN.pdf"
         },
         "2": {
-            "id": "2",
+            "id": "3d835f73-fcf2-4600-b121-b8f96f8b1680",
             "description": {
-                "description": "Isto é um teste",
+                "description": "0",
                 "specs": [
                     [
                         "GENERAL DATA",
-                        "2 Versions: Freezer and Chiller"
+                        ""
                     ],
                     [
                         "Outer Length",
-                        "970 mm"
+                        "1260 mm"
                     ],
                     [
                         "Outer Height",
-                        "725 mm"
+                        "900 mm"
                     ],
                     [
                         "Outer Depth",
-                        "680 mm"
+                        "730 mm"
                     ],
                     [
                         "Gross Capacity",
-                        "125 Lts | 4,4 Ft³"
+                        "362 Lts | 12,8 Ft³"
                     ],
                     [
                         "Net Capacity",
-                        "110 Lts | 3,9 Ft³"
+                        "362 Lts | 12,8 Ft³"
                     ],
                     [
                         "Display Area",
@@ -111,19 +111,23 @@
                     ],
                     [
                         "Refrigerant",
-                        "R 290"
+                        "R 600a"
                     ],
                     [
                         "Climatic Conditions",
-                        "4L1 (freezer version) \n 4M0 (chiller version)"
+                        "T"
                     ],
                     [
                         "Energy Characteristics",
-                        "220-240V/50Hz  1.17 A  242 W  (freezer version) \n 220-240V/50Hz  0.82 A  166 W  (chiller version)"
+                        "220-240V/50Hz  0.29 A  63 W"
                     ],
                     [
                         "Power Consumption",
                         "*"
+                    ],
+                    [
+                        "Energy Efficiency",
+                        "A+"
                     ],
                     [
                         "Insulation Thickness",
@@ -135,24 +139,24 @@
                     ],
                     [
                         "Inner Temperature Range",
-                        "≤ -16 ⁰C up to 6h / ≤ 3,2 ⁰F up to 6h  (freezer version) \n ≤ 4 ⁰C up to 35h  / ≤ 39,2 ⁰F up to 35h  (chiller version)"
+                        "-24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
                     ]
                 ]
             },
             "images": {
                 "photos": "0",
-                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/MBC-125-2.png"
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-420.png"
             },
-            "name": "MBC 125",
+            "name": "FREEZER (HRZ) THC 420",
             "render": "0",
-            "typeId": 1,
-            "videoId": "kPDUmvmGCjk",
-            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-MBC-125_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-420_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
         },
         "3": {
-            "id": "3",
+            "id": "1397bcd0-2e75-4b58-a24e-48abb7f5c526",
             "description": {
-                "description": "Isto é um teste",
+                "description": "0",
                 "specs": [
                     [
                         "Outer Length",
@@ -218,38 +222,813 @@
             },
             "name": "FREEZER (HRZ) THC 305",
             "render": "0",
-            "typeId": 1,
-            "videoId": "bN_N1F_8Q_M",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
             "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-305_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
+        },
+        "4": {
+            "id": "f2f1aab3-ee42-4cbb-81c6-812e34dac19a",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "595 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "730 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "133 Lts | 4,7 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "133 Lts | 4,7 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "T"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.28 A  50 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "A+"
+                    ],
+                    [
+                        "Espessura Isolamento",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        " -24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-170-3.png"
+            },
+            "name": "FREEZER (HRZ) THC 170",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-170_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
+        },
+        "5": {
+            "id": "b78639bb-f402-43c2-a31f-2bdbc7433931",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "800 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "730 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "202 Lts | 7,1 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "202 Lts | 7,1 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "T"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.28 A  56 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "A+"
+                    ],
+                    [
+                        "Espessura Isolamento",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        " -24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-220.png"
+            },
+            "name": "FREEZER (HRZ) THC 220",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-220_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
+        },
+        "6": {
+            "id": "fcee4977-a835-44b4-84d6-28f0a04b030e",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "820 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "995 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "785 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "120 Lts | 4,2 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "80 Lts | 2,8 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "N/A"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "5"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "N/A"
+                    ],
+                    [
+                        "Power Consumption",
+                        "N/A"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 7h  /  ≤ 3,2 ⁰F up to 7h  (freezer version) \n ≤ 4 ⁰C up to 35h  / ≤ 39,2 ⁰F up to 35h (chiller version)"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2018/11/Street-Cart.png"
+            },
+            "name": "STREET CAR",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "bjkImP4qaQg",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2019/04/TECHNICAL-CARD-Push-Cart-E21_-V_-Hz_-_-_EN-1.pdf"
+        },
+        "7": {
+            "id": "ef4a8447-bdcd-42b4-9e70-9016e9b89641",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "970 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "725 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "680 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "125 Lts | 4,4 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "110 Lts | 3,9 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "4L1 (freezer version) \n 4M0 (chiller version)"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.17 A  242 W  (freezer version) \n 220-240V/50Hz  0.82 A  166 W  (chiller version)"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 6h / ≤ 3,2 ⁰F up to 6h  (freezer version) \n ≤ 4 ⁰C up to 35h  / ≤ 39,2 ⁰F up to 35h  (chiller version)"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/MBC-125-2.png"
+            },
+            "name": "MBC 125",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "kPDUmvmGCjk",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-MBC-125_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "8": {
+            "id": "820d95b1-dc2b-4cec-a9d2-981c10ea075f",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "920 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1140 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "2300 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "125 Lts | 4,4 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "110 Lts | 3,9 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "4L1 (freezer version) \n 4M0 (chiller version)"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.17 A  242 W  (freezer version) \n 220-240V/50Hz  0.82 A  166 W  (chiller version)"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 6h / ≤ 3,2 ⁰F up to 6h  (freezer version) \n ≤ 4 ⁰C up to 35h  / ≤ 39,2 ⁰F up to 35h  (chiller version)"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2016/01/MBC-125-BIKE-1.png"
+            },
+            "name": "MBC 125 BIKE",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "kPDUmvmGCjk",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2016/01/TECHNICAL-CARD-MBC-Bike_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "9": {
+            "id": "e6e50974-b09c-4f5b-9a10-c5e5dc477a64",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "840 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1080 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "1430 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "4L1 (freezer version) \n 4M0 (chiller version)"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.17 A  242 W  (freezer version) \n 220-240V/50Hz  0.82 A  166 W  (chiller version)"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 7h / ≤ 3,2 ⁰F up to 7h  (freezer version) \n ≤ 4 ⁰C up to 35h / ≤ 39,2 ⁰F up to 35h  (chiller version)"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/Pushy-Espelhado.png"
+            },
+            "name": "PUSHY",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "PRTHvh02ROA",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-Pushy-Chiller_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "10": {
+            "id": "2265ef3a-5004-4486-8d77-7a2b9c5aa3c0",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1180 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "2300 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "4L1 (freezer version) \n 4M0 (chiller version)"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.17 A  242 W  (freezer version) \n 220-240V/50Hz  0.82 A  166 W  (chiller version)"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 7h / ≤ 3,2 ⁰F up to 7h  (freezer version) \n ≤ 4 ⁰C up to 35h / ≤ 39,2 ⁰F up to 35h  (chiller version)"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/Pushy-Bike.png"
+            },
+            "name": "PUSHY BIKE",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "bjkImP4qaQg",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-Pushy-Bike_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "11": {
+            "id": "a7a1b290-bca9-41b5-8cb1-b599049a22c5",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "840 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1080 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "1430 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "4L1 (freezer version) \n 4M0 (chiller version)"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.17 A  242 W  (freezer version) \n 220-240V/50Hz  0.82 A  166 W  (chiller version)"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 7h / ≤ 3,2 ⁰F up to 7h  (freezer version) \n ≤ 4 ⁰C up to 35h / ≤ 39,2 ⁰F up to 35h  (chiller version)"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2018/11/thumbnail_Pushy-Tryke-OUT2015-magic-wand-BOX.png"
+            },
+            "name": "PUSHY BOX",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "T-RWAG_6e-g",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-Pushy_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "12": {
+            "id": "728e0bde-35eb-4409-87ec-272bc50a5e17",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "1035 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "955 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "700 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "243 Lts | 8.6 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "243 Lts | 8.6 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "4L1"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.5 A  195 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "≤ -16 ⁰C up to 6h \n ≤ 3,2 ⁰F up to 6h"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THG-6FFE.png"
+            },
+            "name": "THG 6 FFE",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THG-6-FFE_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "13": {
+            "id": "9f529a6e-52bf-46e4-82af-d29641e10656",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "Outer Length",
+                        "655 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1895 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "910 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "453 Lts | 16 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "327 Lts | 11,5 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "3S"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  3,79 A  529 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thuckness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "-38 ⁰C / -24 ⁰C \n -36,4 ⁰F / -11,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/VCV-7.png"
+            },
+            "name": "VCV 7",
+            "render": "0",
+            "typeId": "e4f94596-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-VCV-7_220-240V_50Hz_Embraco-R290_Danfoss-Digital_EN.pdf"
+        },
+        "14": {
+            "id": "34402c2a-e050-47c9-b0de-97a19a47ebf7",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "1500 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "730 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "448 Lts  | 15,8 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "448 Lts  | 15,8 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R 600a"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "T"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.29 A  76 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Energy Efficiency",
+                        "A+"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "-24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-520-1.png"
+            },
+            "name": "FREEZER (HRZ) THC 520",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-520_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
         }
     },
     "type": {
         "1": {
-            "id": "1",
+            "id": "e1703560-9d07-11ea-bb37-0242ac130002",
             "type": "Domestic",
             "background": "https://ibb.co/TBsM03C",
             "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/domestico.png"
         },
         "2": {
-            "id": "2",
+            "id": "e4f94596-9d07-11ea-bb37-0242ac130002",
             "type": "Mobile",
             "background": "https://ibb.co/TBsM03C",
             "icon": "https://www.fricon.pt/wp-content/uploads/2017/02/mobiling-1.png"
         },
         "3": {
-            "id": "3",
+            "id": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
             "type": "Drinks",
             "background": "https://ibb.co/TBsM03C",
             "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/bebidas.png"
         },
         "4": {
-            "id": "4",
+            "id": "ebab2508-9d07-11ea-bb37-0242ac130002",
             "type": "Ice Cream and Frozen",
             "background": "https://ibb.co/TBsM03C",
             "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/gelados-congelados.png"
         },
         "5": {
-            "id": "5",
+            "id": "ee6cb63a-9d07-11ea-bb37-0242ac130002",
             "type": "Supermarkets",
             "background": "https://ibb.co/TBsM03C",
             "icon": "https://www.fricon.pt/wp-content/uploads/2015/10/supermercados2.png"
