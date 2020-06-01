@@ -80,14 +80,13 @@ export default class Product extends Component {
                     {this.state.hasTC
                         ? <TouchableOpacity>
                             <Text style={styles.button} onPress={() => {
-                                //on clicking we are going to open the URL using Linking
                                 Linking.openURL(this.state.currentItem.technicalCard);
                             }}> View Technical Card</Text>
                         </TouchableOpacity>
                         : <Text></Text>}
                     {this.state.hasPresVideo
                         ? <YouTube
-                            videoId={this.state.currentItem.videoId} // The YouTube video ID
+                            videoId={this.state.currentItem.videoId}
                             onReady={e => this.setState({ isReady: true })}
                             onChangeState={e => this.setState({ status: e.state })}
                             onChangeQuality={e => this.setState({ quality: e.quality })}
