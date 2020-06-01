@@ -2,8 +2,8 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 4948,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "packagerPid": 3579,
+  "expoServerNgrokUrl": "https://f7-dwh.carlosguedespinto.firebasetest.exp.direct",
+  "packagerNgrokUrl": "https://packager.f7-dwh.carlosguedespinto.firebasetest.exp.direct",
+  "ngrokPid": 3590
 }
