@@ -8,13 +8,15 @@ import Menu from './src/screens/Menu';
 import Catalog from './src/screens/Catalog';
 import Header from './src/components/Header';
 import Product from './src/screens/Product';
+import ThreeDViewer from './src/screens/ThreeDViewer';
 
 const AppNavigator = createStackNavigator(
   {
     Home: { screen: Home },
     Menu: { screen: Menu },
     Catalog: { screen: Catalog },
-    Product: { screen: Product}
+    Product: { screen: Product },
+    ThreeDViewer: { screen: ThreeDViewer } 
   },
   {
     initialRouteName: 'Home',

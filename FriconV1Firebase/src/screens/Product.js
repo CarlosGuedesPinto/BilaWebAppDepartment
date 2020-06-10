@@ -97,7 +97,7 @@ export default class Product extends Component {
                         : <Text></Text>}
                     {this.state.hasRender
                         ? <TouchableOpacity>
-                            <Text style={styles.button}>3D</Text>
+                            <Text style={styles.button} onPress={() => this.props.navigation.navigate('ThreeDViewer')} key={item.id}>3D</Text>
                         </TouchableOpacity>
                         : <Text></Text>}
 
