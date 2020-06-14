@@ -1000,6 +1000,961 @@
             "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
             "videoId": "0",
             "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-520_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
+        },
+        "15": {
+            "id": "60776336-0c04-4466-b857-52489fcb3523",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "1650 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "790 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "526 Lts | 18,6 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "526 Lts | 18,6 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "3L1"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  1.16 A  218 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "-24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-600.png"
+            },
+            "name": "FREEZER (HRZ) THC 600",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-600_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "16": {
+            "id": "cca327ba-3119-4413-8ebd-59bcca0ec8aa",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "2000 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "900 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "790 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "650 Lts | 23 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "650 Lts | 23 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R290"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "3L1"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  2.4 A  360 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "-24 ⁰C / -16 ⁰C \n -11,2 ⁰F / 3,2 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THC-800.png"
+            },
+            "name": "FREEZER (HRZ) THC 800",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THC-800_220-240V_50Hz_Embraco-R290_Danfoss-Analog_EN.pdf"
+        },
+        "17": {
+            "id": "16ddfc3c-d93b-4208-a603-4926aa7acaed",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "555 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "855 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "595 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "128 Lts  | 4,5 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "116 Lts  | 4,1 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600A"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "T"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.2 A  34 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Door",
+                        "Door - Opaque"
+                    ],
+                    [
+                        "Color",
+                        "White or Silver"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "-24 ⁰C / -18 ⁰C \n -11,2 ⁰F / -0,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/CN-130.png"
+            },
+            "name": "FREEZER (VRT) CN 130",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-CN-130_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
+        },
+        "18": {
+            "id": "656ffec2-545a-4f80-a6f8-c37d0c774dd3",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "555 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1510 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "595 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "215 L (7,6 ft³)"
+                    ],
+                    [
+                        "Net Capacity",
+                        "176 L (6,2 ft³)"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600A"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "T"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.39 A  84 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "-24 ⁰C / -18 ⁰C \n -11,2 ⁰F / -0,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/CN-250.png"
+            },
+            "name": "FREEZER (VRT) CN 250",
+            "render": "0",
+            "typeId": "e1703560-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-CN-250_220-240V_50Hz_Embraco-R600a_Danfoss-Analog_EN.pdf"
+        },
+        "19": {
+            "id": "f216cba2-7401-4940-a68a-180d2335fa54",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "615 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "930 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "730 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "104 L | 3,7 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "87 L | 3,1 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600A"
+                    ],
+                    [
+                        "Climatic Conditions",
+                        "3M1"
+                    ],
+                    [
+                        "Energy Characteristics",
+                        "220-240V/50Hz  0.71 A 146 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "N/A"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C  \n 32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2016/02/Checkout-vs2.png"
+            },
+            "name": "CHECKOUT",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2016/02/TECHNICAL-CARD-Checkout-G_220-240V_50Hz_Embraco-R600a_CAREL-Digital_EN.pdf"
+        },
+        "20": {
+            "id": "1a1d3f16-5af1-428b-a7fe-6ffe0cb7501e",
+            "description": {
+                "description": "The Fricon VDTT is a versatile solution for the most varied types of shop. \n This, because it is a bi-temperature equipment, contains one zone for positive cold and one for negative cold. Thus, it is possible to meet different needs in both refrigeration and food storage, combining this with a high performance in both temperatures. \n In this way, we have equipment that meets the requirements of store space with low energy consumption and allows separating food by typology. As is customary in Fricon solutions, it is a plug-in equipment which provides a quick and easy installation at the point of sale, combined with an ease of disposal of the same in the commercial space. \n This solution uses the refrigerant gas R290 low environmental impact, providing an environmentally friendly equipment with a good exposure of the product can boost sales and promotion of the products exposed due to customization of the POS layout.",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Exterior Width",
+                        "520 mm"
+                    ],
+                    [
+                        "Exterior Height",
+                        "1975 mm"
+                    ],
+                    [
+                        "Exterior Depth",
+                        "650 mm"
+                    ],
+                    [
+                        "Gross Volume",
+                        "270 Lts"
+                    ],
+                    [
+                        "Net Volume",
+                        "242 Lts"
+                    ],
+                    [
+                        "Total Display Area",
+                        "0.51 m2"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R290"
+                    ],
+                    [
+                        "Climate Class",
+                        "3L1"
+                    ],
+                    [
+                        "Energetic Features",
+                        "220-240V/50Hz  3.76 A  545 W"
+                    ],
+                    [
+                        "Energy Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Lid/Door Type",
+                        "Porta – Vidro"
+                    ],
+                    [
+                        "Temperature Range",
+                        "≤ -24/0 ⁰C up to -18/8  \n ≤ -11,2/32 ⁰F up to -0,4 ºF/46,4 ºF"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2019/02/DUO-3.png"
+            },
+            "name": "DUO",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2019/02/TECHNICAL-CARD-VDTT-202-D3A2_220-240V_50Hz_Embraco-R290_Dixell-Digital_EN.pdf"
+        },
+        "21": {
+            "id": "40acb3c6-1823-482d-a5f4-e886fe9b6558",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "1000 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "920 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "630 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "293 L| 10,3 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "293 L | 10,3 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R134a/R600a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "3M1"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  0.6 A 80W  (c/ R134a) \n 220-240V/50Hz  1.2 A 195W  (c/ R600a)"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "Lid - Opaque"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C  32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/THB-6R-1.png"
+            },
+            "name": "THB 6R",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-THB-6R_220-240V_50Hz_Embraco-R134a_Danfoss-Analog_EN.pdf"
+        },
+        "22": {
+            "id": "dd39c893-c7e9-4028-a601-e82f9032ed63",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "460 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "910 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "583 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "90 Lts | 3,2 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "72 Lts | 2,5 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "0,18 m²"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R134a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "4M1"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  1 A 130 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Glass"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C  32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/VCV-13.png"
+            },
+            "name": "VCV 13R",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-VCV-13R_220-240V_50Hz_Embraco-R134a_CAREL-Digital_EN-1.pdf"
+        },
+        "23": {
+            "id": "0b7125a1-1c31-428c-8140-4bab8690a190",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Width",
+                        "605 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1935 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "620 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "419 L  | 14,8 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "350 L | 12,4 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "3M1"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  0.78 A  170 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Glass"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C  32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/VCV-2B-2.png"
+            },
+            "name": "VCV 2B",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-VCV-2B_220-240V_50Hz_ACC-R600a_Danfoss-Digital_EN.pdf"
+        },
+        "24": {
+            "id": "7018bcda-2769-43a0-b6fb-aa1d733f86b4",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "550 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "590 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "605 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "82 L | 2,9 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "65 L | 2,3 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "0.14 m2"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "3M1"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  0.27 A  58 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "Glass"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C  32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2016/02/VCV-4R-2.png"
+            },
+            "name": "VCV 4R",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2016/02/TECHNICAL-CARD-CT-58-C2A6_220-240V_50Hz_Secop-R600a_Dixell-Digital_EN.pdf"
+        },
+        "25": {
+            "id": "e9e98ce9-4898-4f1b-abc6-3a081f094193",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "530 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1000 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "430 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "79 L | 2,8 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "65 L | 2,3 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R134a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "4M1"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  1.32 A  153 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Glass"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C  32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/VCV-5B-2.png"
+            },
+            "name": "VCV 5B",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-VCV-5B_220-240V_50Hz_Embraco-R134a_Danfoss-Digital_EN.pdf"
+        },
+        "26": {
+            "id": "4c17f9eb-7a00-419b-bcdf-07f254353a6b",
+            "description": {
+                "description": "0",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Length",
+                        "610 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "960 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "555 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "187 L | 6,6 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "114 L | 4 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "3M1"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  1.1 A 132 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "55 mm"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Glass"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "0 ⁰C / 8 ⁰C \n 32 ⁰F / 46,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": "0",
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2015/10/VCV-8-2.png"
+            },
+            "name": "VCV 8",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2015/10/TECHNICAL-CARD-VCV-8_220-240V_50Hz_Embraco-R600a_OSAKA-Digital_EN.pdf"
+        },
+        "27": {
+            "id": "b9d3bd33-21d7-494b-8e38-130e80253a3c",
+            "description": {
+                "description": "Wine Cave Fricon is a solution with attractive design and premium finishes. This solution presents an exceptional product display area, technologically advanced, with touch glass system and LED lighting, allowing to optimize the interior visualization with low consumptions. \n The full glass door allows a sublime, discreet and refined product exhibition. The wine cellar Fricon allows to satisfy the most demanding requirements of the market in the conservation and promotion of product, combined with high performances and competitive consumptions, also using natural treated wood accessories, eco-friendly refrigerant R290 with low environment impact. \n Main attributes: touch display, full glass door, high efficiency, high-end design, top class materials.",
+                "specs": [
+                    [
+                        "GENERAL DATA",
+                        ""
+                    ],
+                    [
+                        "Outer Width",
+                        "625 mm"
+                    ],
+                    [
+                        "Outer Height",
+                        "1326 mm"
+                    ],
+                    [
+                        "Outer Depth",
+                        "666 mm"
+                    ],
+                    [
+                        "Gross Capacity",
+                        "299 L  | 10,6 Ft³"
+                    ],
+                    [
+                        "Net Capacity",
+                        "202 L | 7,1 Ft³"
+                    ],
+                    [
+                        "Display Area",
+                        "N/A"
+                    ],
+                    [
+                        "Refrigerant",
+                        "R600a"
+                    ],
+                    [
+                        "Climate Conditions",
+                        "4M1  (c/ R134a) \n 3M1  (c/ R600a)"
+                    ],
+                    [
+                        "Energetic Characteristics",
+                        "220-240V/50Hz  0.7 A  140 W"
+                    ],
+                    [
+                        "Power Consumption",
+                        "*"
+                    ],
+                    [
+                        "Insulation Thickness",
+                        "N/A"
+                    ],
+                    [
+                        "Lids",
+                        "Door - Glass"
+                    ],
+                    [
+                        "Inner Temperature Range",
+                        "8 ⁰C / 18 ⁰C \n 46,4 ⁰F / 64,4 ⁰F"
+                    ]
+                ]
+            },
+            "images": {
+                "photos": [
+                    "https://www.fricon.pt/wp-content/uploads/2018/11/Wine-Cave-Porta-Aberta.png"
+                ],
+                "profilePic": "https://www.fricon.pt/wp-content/uploads/2018/11/Wine-Cave-1.png"
+            },
+            "name": "Wine Cave",
+            "render": "0",
+            "typeId": "e88a8fb2-9d07-11ea-bb37-0242ac130002",
+            "videoId": "0",
+            "technicalCard": "https://www.fricon.pt/wp-content/uploads/2018/11/TECHNICAL-CARD-VWD-108-C2A6_220-240V_50Hz_Embraco-R600a_Dixell-Digital_EN-1.pdf"
         }
     },
     "type": {
